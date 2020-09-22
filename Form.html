@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ashesi Career Service CV </title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+    <!--Heading-->
+    <div id="top">
+        <h1>Ashesi Career Service CV</h1>
+    </div>
+    <!--Details Info-->
+    <form id="_form" method="POST">
+        <!--First Name field-->
+        <img src="AshesiLogo.jpg" id="logo" alt="">
+        <h1 style="text-align: center; font-size: 1.5rem;">Curriculum Vitae </h1>
+        <div  class="finput">
+            <label>First Name: </label>
+            <input type="text" name="fname" id="first" placeholder="First Name" class="">
+        </div>
+         
+        <!--Middle Name field-->
+        <div  class="finput">
+            <label>Middle Name: </label>
+            <input type="text" name="mname" id="middle" placeholder="Middle Name">
+        </div>
+
+        <!--Last Name Field-->
+        <div class="finput">
+            <label>Last Name: </label>
+            <input type="text" name="lname"  id="last" placeholder="Last Name" class="">
+        </div>
+        
+        <!--Gender: dropdown – ‘male’ and ‘female’-->
+        <div class="finput">
+            <label>Gender: </label>
+            <select id="gender" name="gender" id="gender" size="1">
+                <option value="Gender" selected hidden>Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <br />
+        </div>
+
+        <!--Phone Number Field-->
+        <div class="finput">
+            <label>Phone Number: </label>
+            <input type="text" name="phone" id="phone" placeholder="eg. = +233122334455">
+            <br />
+        </div>
+
+        <!--Email Field-->
+        <div class="finput">
+            <label>Email: </label>
+            <input type="email" name="email" id="email" placeholder="student@ashesi.com" class="">
+            <br />
+        </div>
+        
+
+        <!--Address Field-->
+        <div class="finput">
+            <label>Address: </label>
+            <input type="text" name="address" id="address" placeholder="Address" class="">
+            <br />
+        </div>
+        
+        <!--Submition Field-->
+        <div class="finput">
+            <input name= "Submit" type="Submit" value="Submit" class="button"></input>
+        </div>
+    </form>
+</body>
+<script src="Form.js"></script>
+</html>

@@ -1,0 +1,68 @@
+:root{
+    font-size: 12pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media(min-width: 800px){
+    .titlespace{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 2vw 2vw;
+        border: 3px solid transparent;
+        margin: 0 10vw;
+        box-shadow: 5px 3px 10px grey, -5px -3px 10px grey;
+        
+    }
+    
+    
+}
+#titleelements li{
+    display: block;
+    list-style: none;
+    text-align: center;
+}
+
+#name{
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.box{
+    border: 2px solid transparent;
+}
+
+.dates{
+    float: right;
+}
+
+h3{
+    height: 5px;
+}
+
+
+button{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: bisque;
+    font-size: 0.8rem;
+    box-shadow: 3px 5px 10px grey;
+    border: transparent;
+}
+
+button:hover{
+    background-color: rgba(221, 205, 185, 0.8);
+}
+
+#gtf{
+    float: right;
+}
